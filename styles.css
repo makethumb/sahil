@@ -1,0 +1,86 @@
+body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    section {
+      padding: 40px 0;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .experience-item, .project-item{
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .projects-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+    ul{
+      list-style: disc;
+      padding-left: 20px;
+    }
+    footer{
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav a {
+        margin-right: 10px;
+      }
+    }
+
+    /* styles for Lucide icons */
+    .lucide-icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: middle;
+    }
+
+    .project-item h3 {
+      margin-bottom: 10px;
+    }
+    .project-item p{
+      margin-bottom: 5px;
+    }
